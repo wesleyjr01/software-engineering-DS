@@ -1,0 +1,5 @@
+{
+    // "python.pythonPath": "/usr/bin/python3"
+    "python.pythonPath": "~/environments/flex/bin/python3",
+    "python.formatting.provider": "black",
+}
