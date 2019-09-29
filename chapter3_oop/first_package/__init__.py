@@ -2,6 +2,7 @@ from .utils import we_need_to_talk
 from .my_class import MyClass
 from .document import Document
 from .inheritance import ChildClass
+from .multilevelinheritance import GrandChild
 
 """
     As a general rule, you should import youir package's key functionality

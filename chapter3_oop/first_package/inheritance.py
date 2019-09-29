@@ -5,11 +5,8 @@ from .document import Document
 class ChildClass(Document):
     def __init__(self, text):
         # Call parent's __init__ method
-        self.text = text
         Document.__init__(self, text)
         self.tokens = self._tokenize()
 
     def _tokenize(self):
-        self.tokens = self.text.split(" ")
-        return self.tokens
-
+        return self.text.split(" ")
